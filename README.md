@@ -20,13 +20,13 @@ List<Cars> cars = Cars.GenerateCars(10, 'A');\
  \
 Cars.ProcessCarsWithTaskWhenAll(cars);
 
-# TODO
+## TODO
  * without Task.WhenAll(tasks) and Task.Delay(1000) takes 10.14 seconds 
  * without Task.WhenAll(tasks) and without Task.Delay(1000) takes 0.00 seconds 
  \
 Cars.ProcessCarsWithoutTaskWhenAll(cars);
 
-# TODO
+## TODO
  * with this main thread doesn't freeze anymore.
  *This reduces main thread execution time
  \
