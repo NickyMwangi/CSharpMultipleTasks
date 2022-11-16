@@ -1,0 +1,15 @@
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Debug\net6.0\CSharpMultipleTasks.exe
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Debug\net6.0\CSharpMultipleTasks.deps.json
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Debug\net6.0\CSharpMultipleTasks.runtimeconfig.json
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Debug\net6.0\CSharpMultipleTasks.dll
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Debug\net6.0\CSharpMultipleTasks.pdb
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.csproj.AssemblyReference.cache
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.GeneratedMSBuildEditorConfig.editorconfig
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.AssemblyInfoInputs.cache
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.AssemblyInfo.cs
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.csproj.CoreCompileInputs.cache
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.dll
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\refint\CSharpMultipleTasks.dll
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.pdb
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\CSharpMultipleTasks.genruntimeconfig.cache
+E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\obj\Debug\net6.0\ref\CSharpMultipleTasks.dll

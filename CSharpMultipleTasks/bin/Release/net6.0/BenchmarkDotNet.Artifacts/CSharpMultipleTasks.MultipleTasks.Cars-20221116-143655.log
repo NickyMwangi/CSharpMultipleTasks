@@ -1,0 +1,115 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 1 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Release\net6.0\8dfd81e9-dc73-4606-b9e1-ab13a7b1d71f
+// command took 1.23s and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Release\net6.0\8dfd81e9-dc73-4606-b9e1-ab13a7b1d71f
+// command took 13.62s and exited with 1
+// start dotnet  build -c Release --no-restore --no-dependencies /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Release\net6.0\8dfd81e9-dc73-4606-b9e1-ab13a7b1d71f
+// command took 1.94s and exited with 0
+// ***** Done, took 00:00:17 (17.13 sec)   *****
+// Found 1 benchmarks:
+//   Cars.withwhenAll: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// **************************
+// Benchmark: Cars.withwhenAll: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet 8dfd81e9-dc73-4606-b9e1-ab13a7b1d71f.dll --benchmarkName CSharpMultipleTasks.MultipleTasks.Cars.withwhenAll --job Default --benchmarkId 0 in E:\Lessons\CSharpMultipleTasks\CSharpMultipleTasks\bin\Release\net6.0\8dfd81e9-dc73-4606-b9e1-ab13a7b1d71f\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.11 (6.0.1122.52304), X64 RyuJIT AVX2
+// GC=Concurrent Workstation
+// HardwareIntrinsics=AVX2,AES,BMI1,BMI2,FMA,LZCNT,PCLMUL,POPCNT VectorSize=256
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 158900.00 ns, 158.9000 us/op
+WorkloadJitting  1: 1 op, 200035500.00 ns, 200.0355 ms/op
+
+WorkloadPilot    1: 2 op, 386938700.00 ns, 193.4693 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.37 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.346 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.403 Seconds
+WorkloadPilot    2: 3 op, 1453679400.00 ns, 484.5598 ms/op
+
+Processing with TaskWhenAll of 100000 Car Done in 2.061 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.437 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.462 Seconds
+WorkloadWarmup   1: 3 op, 1413104800.00 ns, 471.0349 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.98 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.615 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.501 Seconds
+WorkloadWarmup   2: 3 op, 1556495100.00 ns, 518.8317 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 2.206 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.522 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.504 Seconds
+WorkloadWarmup   3: 3 op, 1339622100.00 ns, 446.5407 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.893 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.498 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.431 Seconds
+WorkloadWarmup   4: 3 op, 1375228100.00 ns, 458.4094 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.984 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.425 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.395 Seconds
+WorkloadWarmup   5: 3 op, 1402115600.00 ns, 467.3719 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 2.151 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.581 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.427 Seconds
+WorkloadWarmup   6: 3 op, 1394650900.00 ns, 464.8836 ms/op
+
+// BeforeActualRun
+Processing with TaskWhenAll of 100000 Car Done in 2.095 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.562 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.512 Seconds
+WorkloadActual   1: 3 op, 1483206300.00 ns, 494.4021 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.932 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.396 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.347 Seconds
+WorkloadActual   2: 3 op, 1263084000.00 ns, 421.0280 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.803 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.446 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.459 Seconds
+WorkloadActual   3: 3 op, 1526487800.00 ns, 508.8293 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 2.09 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.538 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.495 Seconds
+WorkloadActual   4: 3 op, 1222716300.00 ns, 407.5721 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.89 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.444 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.476 Seconds
+WorkloadActual   5: 3 op, 1556614100.00 ns, 518.8714 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.985 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.413 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.375 Seconds
+WorkloadActual   6: 3 op, 1254521700.00 ns, 418.1739 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.84 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.398 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.436 Seconds
+WorkloadActual   7: 3 op, 1433859700.00 ns, 477.9532 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.911 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.47 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.443 Seconds
+WorkloadActual   8: 3 op, 1368109500.00 ns, 456.0365 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 2.056 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.547 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.441 Seconds
+WorkloadActual   9: 3 op, 1414032000.00 ns, 471.3440 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.983 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.472 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.55 Seconds
+WorkloadActual  10: 3 op, 1543464600.00 ns, 514.4882 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 2.148 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.536 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.469 Seconds
+WorkloadActual  11: 3 op, 1305802300.00 ns, 435.2674 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.952 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.461 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.459 Seconds
+WorkloadActual  12: 3 op, 1417647500.00 ns, 472.5492 ms/op
+Processing with TaskWhenAll of 100000 Car Done in 1.971 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.399 Seconds
+Processing with TaskWhenAll of 100000 Car Done in 1.343 Seconds
+WorkloadActual  13: 3 op, 1358361200.00 ns, 452.7871 ms/op
